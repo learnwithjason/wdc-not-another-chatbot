@@ -1,0 +1,34 @@
+:root {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: 18px;
+	line-height: 1.45;
+}
+
+main {
+	margin: 4rem auto;
+	width: min(90vw, 900px);
+}
+
+.video iframe {
+	aspect-ratio: 1280 / 720;
+	height: auto;
+	width: 100%;
+}
+
+.related {
+	display: flex;
+	gap: 3rem;
+
+	& .episode {
+		width: 300px;
+
+		& img {
+			width: 100%;
+		}
+
+		& p {
+			margin-block-start: 0.25rem;
+		}
+	}
+}

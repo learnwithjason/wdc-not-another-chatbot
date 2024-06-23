@@ -11,12 +11,19 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@langchain/community": "^0.0.53",
+    "@langchain/openai": "^0.0.28",
     "@netlify/functions": "^2.6.0",
     "@netlify/remix-adapter": "^2.3.1",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
     "@remix-run/serve": "^2.9.2",
-    "isbot": "^4.1.0"
+    "isbot": "^4.1.0",
+    "langchain": "^0.1.36",
+    "openai": "^4.38.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.9.2",
